@@ -11,7 +11,7 @@
 
 
 // ESERCIZIO 1
-for (let i = 0; i > 5; i++) {
+for (let i = 0; i < 5; i++) {
     console.log(i);
 }
 // è un esercizio che serve per incrementare l'indice di un contatore, non ha erorri ne di sintassi ne logici
@@ -33,7 +33,6 @@ function loopToFive() {
         console.log(i);
     }
 }
-
 // ERRORI
 // sbagliata la sintassi per il ciclo for, vanno messi i ;
 // è un esercizio che serve per incrementare l'indice di un contatore
