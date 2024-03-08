@@ -78,14 +78,14 @@ function checkAccessImproved() {
     for (let i = 0; i < addresses.length; i++) {
         const email = addresses[i];
 
-        if (userEmail.length > 5) {
+        
 
             if (email === userEmail) {
                 grantAccess = 'true';
 
             }
 
-        }
+        
 
         if (grantAccess) {
             console.log('Accesso consentito!');
@@ -96,7 +96,7 @@ function checkAccessImproved() {
 }
     checkAccessImproved();
 
-    // NON ERA STATA CHIUSA LA PARENTESI GRAFFA DELLA FUNZIONE
+    // NON ERA STATA CHIUSA LA PARENTESI GRAFFA DELLA FUNZIONE, il primo if era inutile
     // La funzione serve a verificare se la mail è presente all'interno del array Per farti accedere, se presente ti stampa accesso consentito, se non è presente ti stampa accesso negato
 
 

@@ -56,12 +56,12 @@ const cars = [
         manufacturer: 'Seat',
         model: 'Ibiza',
         type: 'metano'
-    }
+    },
     {
         manufacturer: 'Audi',
         model: 'R8',
         type: 'Benzina'
-    },
+    }
 ];
 
 const gasolineCars = cars.filter( (auto) >= auto.type === 'benzina');
@@ -84,3 +84,6 @@ console.log(dieselCars);
 
 console.log('Tutte le altre auto');
 console.log(otherCars);
+
+
+// ERRORE: manca una virgola all'ultimo oggetto dell'array
