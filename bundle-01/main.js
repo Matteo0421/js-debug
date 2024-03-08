@@ -24,7 +24,7 @@ function addIfEven(num) {
     return num;
 }
 // errore nella condizione del if non puo andare solo un uguola perchè fa asseggnare, ne vanno 3
-// se il numero è dispari aggiungere 5
+// se il numero è dispari aggiungere 5, altro erroe è che la funzione veniva creata ma mai dichiarata
 
 
 // ESERCIZIO 3
@@ -35,7 +35,8 @@ function loopToFive() {
 }
 // ERRORI
 // sbagliata la sintassi per il ciclo for, vanno messi i ;
-// è un esercizio che serve per incrementare l'indice di un contatore
+// è un esercizio che serve per incrementare l'indice di un contatore,altro erroe è che la funzione veniva creata ma mai dichiarata
+
 
 // ESERCIZIO 4 (suggerimento: ci sono 7 errori)
 function displayEvenNumbers() {
